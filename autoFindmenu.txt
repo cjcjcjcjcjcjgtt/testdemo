@@ -1,0 +1,6 @@
+WebElement MenuNumberDiv = driver.findElement(MobileBy.AndroidUIAutomator(
+                 "new UiScrollable(new UiSelector().scrollable(true).instance(0))." +
+                         "getChildByText(new UiSelector().className(\"android.widget.TextView\")," +
+                         " \"EMS01_YC_16\")")
+         );
+        MenuNumberDiv.click();
